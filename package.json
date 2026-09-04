@@ -1,0 +1,33 @@
+{
+  "name": "news-digest-generator",
+  "version": "1.0.0",
+  "description": "Automated News Digest Generator using Singleton and Builder design patterns",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "news",
+    "digest",
+    "singleton",
+    "builder",
+    "design-patterns",
+    "typescript",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
